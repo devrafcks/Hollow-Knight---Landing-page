@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore o reino de Hollow Knight: mapas, galeria, segredos e novidades do universo de Hallownest.">
+  <title>Hollow Knight</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/imgs/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./src/imgs/favicons/favicon-16x16.png">
+  <link rel="stylesheet" href="./src/style.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    label {
+      position: absolute;
+      left: -9999px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <img src="./src/imgs/logo.png" alt="logo" class="logo">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#mapa">Mapa</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#formulario">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero">
+      <div class="hero-content">
+        <h1>Embarque na Jornada de Hallownest</h1>
+        <p>Descubra todos os segredos e mistérios do universo de Hollow Knight. Explore nossa página e comece sua aventura!</p>
+        <a href="#sobre" class="cta-button">Explore Agora</a>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre">
+      <div class="sobre__container">
+        <img src="src/imgs/hollow-personagem.png" alt="Hollow Knight" class="sobre__imagem">
+        <div class="sobre__texto">
+          <h2>Seja o salvador de Hallownest</h2>
+          <p>
+            Mergulhe em cidades submersas pela escuridão, caminhe por florestas sussurrantes e ruínas em silêncio eterno. Descubra civilizações ocultas há muito apagadas da memória do mundo e torne-se a última centelha de esperança em meio à decadência de um reino que clama por redenção.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mapa -->
+    <section id="mapa">
+      <div class="mapa__container">
+        <div class="mapa__titulo">
+          <h2>Mapa de Hallownest</h2>
+          <p>Cada região guarda segredos antigos e desafios únicos</p>
+        </div>
+
+        <div class="mapa__conteudo">
+          <img src="src/imgs/mapa.png" alt="Mapa de Hallownest" class="mapa__imagem">
+          <ul class="mapa__lugares">
+            <li>🌿 Caminho Verde</li>
+            <li>❄️ Borda do Reino</li>
+            <li>🕷️ Ninho Profundo</li>
+            <li>💨 Cânion da Névoa</li>
+            <li>🌧️ Cidade das Lágrimas</li>
+            <li>🕳️ Bacia Antiga</li>
+            <li>🌸 Jardins da Rainha</li>
+            <li>⚰️ Terra do Descanso</li>
+            <li>💎 Pico de Cristal</li>
+            <li>💧 Hidrovia Real</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria">
+      <div class="galeria__container">
+        <h2>Galeria de Hallownest</h2>
+        <p>Momentos sombrios e belos do reino esquecido.</p>
+
+        <div class="galeria__grid">
+          <img src="./src/imgs/galeria/img1.png" alt="Cena 1" class="galeria__item" loading="lazy">
+          <img src="./src/imgs/galeria/img2.png" alt="Cena 2" class="galeria__item" loading="lazy">
+          <img src="./src/imgs/galeria/img3.png" alt="Cena 3" class="galeria__item" loading="lazy">
+          <img src="./src/imgs/galeria/img4.png" alt="Cena 4" class="galeria__item" loading="lazy">
+          <img src="./src/imgs/galeria/img5.png" alt="Cena 5" class="galeria__item" loading="lazy">
+          <img src="./src/imgs/galeria/img6.png" alt="Cena 6" class="galeria__item" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulário -->
+    <section id="formulario">
+      <div class="form-container">
+        <h2>Receba as Notícias do Futuro de Hallownest</h2>
+        <p>Fique por dentro das últimas novidades, atualizações e segredos de Hollow Knight. Inscreva-se agora para receber notícias exclusivas diretamente no seu e-mail!</p>
+        <form action="#" method="POST" class="subscribe-form">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+          <button type="submit">Inscrever-se</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Dev Rafcks | Todos os direitos reservados</p>
+      <div class="social-links">
+        <a href="https://github.com/devrafcks" target="_blank" aria-label="GitHub">
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/github.png" alt="GitHub">
+        </a>
+        <a href="https://www.linkedin.com/in/rafael-henrique-blanco-0455b12a6/" target="_blank" aria-label="LinkedIn">
+          <img src="https://img.icons8.com/ios-filled/50/ffffff/linkedin.png" alt="LinkedIn">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
